@@ -1,4 +1,4 @@
-num=input("enter a number")
+num=input(enter a number)
 if num==0:
    print("ZERO")
 elif num>0:
