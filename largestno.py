@@ -1,10 +1,9 @@
 num1=input()
-num2=input()
-num3=input()
-if (num1 > num2) and (num1 > num3):
-   large=num1
-if (num2 > num1) and (num2 > num3):   
-   large=num2
-if (num3>num1) and (num3>num2):
-   large=num3
+mylist = num1.split()
+if (mylist[0] > mylist[1]) and (mylist[0] > mylist[2]):
+   large=mylist[0]
+elif (mylist[1] >mylist[0] ) and (mylist[1] > mylist[2]):   
+   large=mylist[1]
+else :
+   large=mylist[2]
 print (large)   
