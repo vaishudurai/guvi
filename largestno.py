@@ -1,4 +1,4 @@
-num1=input()
+num1=raw_input()
 mylist = num1.split()
 if (mylist[0] > mylist[1]) and (mylist[0] > mylist[2]):
    large=mylist[0]
