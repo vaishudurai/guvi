@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char a[100],b[100];
+	char a[10],b[10];
 	scanf("%s %s",a,b);
-	int m,n,i,j,u,v,w,x,y,z,f=0;
+	int p,q,i,j,r,t,w,x,y,z,f=0;
 	m=strlen(a);
 	n=strlen(b);
-	if(m==n)
+	if(p==q)
 	{
-	for(i=0;i<m;i++)
+	for(i=0;i<p;i++)
 	{
-		for(j=i+1;j<m;j++)
+		for(j=i+1;j<p;j++)
 		{
-			u=a[i];
-			v=a[j];
+			r=a[i];
+			t=a[j];
 			w=b[i];
 			x=b[j];
-			y=u-v;
+			y=r-t;
 			z=w-x;
 			if(y==z)
 			{
