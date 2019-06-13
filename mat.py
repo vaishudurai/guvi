@@ -13,4 +13,4 @@ for i in range(n):
 if len(l)==1 and len(l[0])==1 and l[0][0]==1:
     print(1)
 for i in range(ui):
-    print(*[1]*ui) 
+    print([1]*ui) 
